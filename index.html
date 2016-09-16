@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="Description" content="Resume Generator">
+    <title>Resume Generator</title>
+    <!-- Title Icon-->
+    <link rel="icon" sizes="192x192" href="img/RG.png">
+    <!--Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Google Material Design cdn-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.deep_purple-pink.min.css"/>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/template1.css">
+    <link rel="stylesheet" href="css/template2.css">
+    <!--Google custom font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <!--Font awesome Icons-->
+    <script src="https://use.fontawesome.com/4448f4f73a.js"></script>
+</head>
+<body class="mdl-body mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+
+
+     <!--Navigation-->
+
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs" id="nav">
+        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+            <div class="mdl-layout__header-row hide" id="up">
+            </div>
+            <div class="mdl-layout__header-row">
+                <h3 id="maker"><span class="r">R</span><span class="other">esume</span> <span class="r">G</span><span class="other">enerator</span></h3>
+            </div>
+            <div class="mdl-layout__header-row hide">
+            </div>
+            <!--Tabs -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+                <a href="#details" class="mdl-layout__tab is-active">Overview</a>
+                <a href="#resume" class="mdl-layout__tab">Resume Builder</a>
+                
+            </div> 
+        </header><!--End of Navigation part-->
+
+
+        <!--Tab Contents-->
+
+
+        <main class="mdl-layout__content" id="main">
+            <!--Details & Features Begin-->
+            <section class="mdl-layout__tab-panel is-active" id="details">
+                <div class="page-content">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">
+                            <h2>Make Your <span class="link"><a
+                            title="Wiki page" href="https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9" target="_blank">Resume</a></span> Stand Out in Crowd!!</h2>
+                            <h3 class="hero1">Create Beautiful and Professional Resume<br>
+                            that Employers Love.</h3>
+                            <a href="#know" id="more" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">Know More!!</a>
+                        </div><!--End of cell-->
+                    </div><!--End of Grid-->
+                    <hr>
+                    <div class="mdl-grid" id="know">
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">
+                            <h2 class="work">How Does it Works ??</h2>
+                        </div><!--End of Cell-->
+                    </div><!--End of Grid-->
+                    <div class="mdl-grid">        
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet back">
+                             <h4>Resume Generator ??</h4>
+                             <p>It is an online Resume maker which allows Users to enter details and download resume in minutes !!</p>
+                        </div><!--End of Cell-->   
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet back">
+                            <h4>Fast & Easy to Use</h4>
+                            <p>Enter your details in to existing forms and make your Professional Resume in 20 minutes and of course it is an easy to use application.</p>
+                        </div>            
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet back">
+                            <h4>Easy Download!!</h4>
+                            <p>Select Theme and Download Resume either in PDF or in HTML of your choice !</p>
+                        </div><!--End of Cell-->
+                    </div><!--End of Grid-->
+                    <hr>
+                    <div class="mdl-grid">
+                        <a type="button" href="#up" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent none">Start Building Resume</a>
+                    </div>    
+                </div><!--End of page content-->
+            </section><!--End of Details Section-->
+
+
+
+            <!--Resume Builder Begins-->
+            
+
+
+            <section class="mdl-layout__tab-panel" id="resume">
+                <div class="page-content">
+                    <!--Gid layout-->
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-card mdl-shadow--6dp" id="basic">
+                            <h3>Basic Information</h3>
+                            <hr>
+                            <!--Nested Grid-->
+                            
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">
+                                    <form id="register" id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="object" type="text" id="object" />
+                                            <label class="mdl-textfield__label" for="object">Career Objective</label>
+                                            <span class="error">This field is required</span>
+                                        </div>
+                                    </form>
+                                </div> 
+                            </div>    
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="name" id="name" />
+                                            <label class="mdl-textfield__label" for="name">Full Name</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="mobile" pattern="-?[0-9]*(\.[0-9]+)?" id="mobile">
+                                            <label class="mdl-textfield__label" for="mobile">Phone Number</label>
+                                            <span class="mdl-textfield__error">Input is not a number!</span>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="email" type="text" id="mail" />
+                                            <label class="mdl-textfield__label" for="mail">E-mail Address</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="website" type="text" id="website" />
+                                            <label class="mdl-textfield__label" for="website">Website
+                                            Address</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="doorno" type="text" id="address1" />
+                                            <label class="mdl-textfield__label" for="address1">Door No, Street</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="city" type="text" id="address2" />
+                                            <label class="mdl-textfield__label" for="address2">Place,City</label>
+                                        </div>
+                                    </form>
+                                 </div>
+                                 <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="state" type="text" id="address3" />
+                                            <label class="mdl-textfield__label" for="address3">State,Pincode</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                            </div><!--End of Nested Grid--> 
+                           
+                            <!--Buttons-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="submit" id="next" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Next</button>
+                                </div>    
+                            </div>
+                        </div><!--End of  Basic Information-->   
+
+                      
+                        <!--Personal Details-->
+
+
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-card mdl-shadow--6dp" id="personal">
+                            <h3>Personal Details</h3>
+                            <hr>
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="birth" type="text" id="dob" />
+                                            <label class="mdl-textfield__label" for="dob">Date of Birth</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="gender" type="text" id="gender" />
+                                            <label class="mdl-textfield__label" for="gender">Gender</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" name="father" type="text" id="father" />
+                                            <label class="mdl-textfield__label" for="father'sname">Father's Name</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="language" id="language"
+                                            />
+                                            <label class="mdl-textfield__label" for="language">Languages Known</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                             
+                            <!--Buttons--> 
+
+                            <div class="mdl-grid">
+                               
+
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="button" id="prevbasic" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Previous</button>
+                                </div> 
+
+                                 <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button   type="submit" id="educational" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Next</button>
+                                </div>   
+                            </div>  
+                        </div><!--End of Personal Details-->
+
+
+                        <!--Educational Details-->
+
+
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet
+                        mdl-card mdl-shadow--6dp" id="education">
+                            <h3>Educational Details</h3>
+                            <hr>
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="ssc" id="ssc" />
+                                            <label class="mdl-textfield__label" for="ssc">SSC (10th Class) %</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="school" id="school" />
+                                            <label class="mdl-textfield__label" for="school">School Name</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="years" id="year" />
+                                            <label class="mdl-textfield__label" for="year">Year of Passing</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="board1" id="sscboard"
+                                            />
+                                            <label class="mdl-textfield__label" for="sscboard">Board of Education</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <hr>
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="puc" id="puc"
+                                            />
+                                            <label class="mdl-textfield__label" for="puc">PUC (12th Class) %</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="college" id="college"
+                                            />
+                                            <label class="mdl-textfield__label" for="college">College Name</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="year" id="year1"
+                                            />
+                                            <label class="mdl-textfield__label" for="year">Year of Passing</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="board2" id="pucboard" />
+                                            <label class="mdl-textfield__label" for="sscboard">Board of Education</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <hr>
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="degree" id="degree" />
+                                            <label class="mdl-textfield__label" for="degree">Degree & Stream</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="college2" id="institution" />
+                                            <label class="mdl-textfield__label" for="institution">Institution Name</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="marks" id="marks"
+                                            />
+                                            <label class="mdl-textfield__label" for="marks">Percenatge or CGPA</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="year1" id="passing"
+                                            />
+                                            <label class="mdl-textfield__label" for="passing">Year of Passing</label>
+                                        </div>
+                                    </form>
+                                 </div>
+                                 <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="board3" id="board3"
+                                            />
+                                            <label class="mdl-textfield__label" for="board3">Board of Eductaion</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+
+                            <!--Buttons--> 
+
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="button" id="prevpersonal" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Previous</button>
+                                </div>
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="submit" id="pro" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Next</button>
+                                </div>    
+                            </div>  
+                        </div><!--End of Education Details-->
+
+
+                        <!--Project Details-->  
+
+
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet
+                        mdl-card mdl-shadow--6dp" id="project">
+                            <h3>Project Details</h3>
+                            <hr>
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="title" id="title" />
+                                            <label class="mdl-textfield__label" for="title">Project Title</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="mentor" id="mentor" />
+                                            <label class="mdl-textfield__label" for="mentor">Mentor Name</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="description" id="description" />
+                                            <label class="mdl-textfield__label" for="description">Description</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="features" id="features" />
+                                            <label class="mdl-textfield__label" for="features">Features</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                             <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="technology" id="technology" />
+                                            <label class="mdl-textfield__label" for="technology">Technology Used</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="status" id="status" />
+                                            <label class="mdl-textfield__label" for="status">Project Status</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+
+                            <!--Buttons--> 
+
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="button" id="prevedu" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Previous</button>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="submit" id="employ" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Next</button>
+                                </div>   
+                            </div>  
+                        </div><!--End of Project Details-->
+
+
+                        <!--Employment Details-->
+ 
+
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet
+                        mdl-card mdl-shadow--6dp" id="employment">
+                            <h3>Employment Details</h3>
+                            <hr>
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="job" id="job" />
+                                            <label class="mdl-textfield__label" for="job">Job Title</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="company" id="company" />
+                                            <label class="mdl-textfield__label" for="company">Company Name</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="start" id="start" />
+                                            <label class="mdl-textfield__label" for="start">Start Date</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="end" id="end" />
+                                            <label class="mdl-textfield__label" for="end">End Date</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                            
+                            <!--Buttons--> 
+
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="button" id="prevproject" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Previous</button>
+                                </div>
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="submit" id="other_1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Next</button>
+                                </div>    
+                            </div>  
+                        </div><!--End of Employment Details-->
+
+
+                        <!--Other Details--> 
+
+
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet
+                        mdl-card mdl-shadow--6dp" id="other">
+                            <h3>Other Details</h3>
+                            <hr>
+                             <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="interest" id="interest" />
+                                            <label class="mdl-textfield__label" for="interest">Area's of Interest</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="workshop" id="workshop"
+                                            />
+                                            <label class="mdl-textfield__label" for="workshop">Work shops attended</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                             <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="technical" id="technical" />
+                                            <label class="mdl-textfield__label" for="technical">Technical Skills</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="personal" id="personal" />
+                                            <label class="mdl-textfield__label" for="personal">Inter Personal Skills</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+                             <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="activities" id="extra" />
+                                            <label class="mdl-textfield__label" for="extra">Extracurricular Activities</label>
+                                        </div>
+                                    </form>
+                                </div> 
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                     <form id="register" action="submit" method="post">
+                                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                            <input class="mdl-textfield__input" type="text" name="hobbies" id="hobbies" />
+                                            <label class="mdl-textfield__label" for="hobbies">Hobbies</label>
+                                        </div>
+                                    </form>
+                                 </div> 
+                            </div><!--End of Nested Grid-->
+
+
+                            <!--Buttons--> 
+
+
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="button" id="prevemploy" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Previous</button>
+                                </div>
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="submit" id="final" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Next</button>
+                                </div>    
+                            </div>  
+                        </div><!--End of Other Details-->
+
+                        
+                        <!--Finish Part-->
+
+
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet
+                        mdl-card mdl-shadow--16dp" id="finish">
+                            <h3>Finish</h3>
+                            <p>Choose template below to download completed Resume</p>
+                            <hr>
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="submit" id="template1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                    Template 1</button>
+                                </div><!--End of Template 1 Button-->
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="submit" id="template2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                                    Template 2</button>
+                                </div><!--End of Template 2 Button-->     
+                            </div>
+                            <div class="mdl-grid">
+                                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet">
+                                    <button type="button" id="prevother" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Previous</button>
+                                </div>
+                            </div>    
+                        </div><!--End of Finish-->
+                    </div><!--End of Grid-->
+                </div><!--End of Page Content-->
+            </section><!--End of Resume Builder-->
+
+
+
+            <!--FOOTER-->
+
+
+
+            <footer class="mdl-mega-footer">
+                <div class="mdl-mega-footer__middle-section">
+                    <div class="mdl-mega-footer__drop-down-section">
+                        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                        <h1 class="mdl-mega-footer__heading">Contact Information</h1>
+                        <ul class="mdl-mega-footer__link-list not-active">
+                            <li>E-mail : vinay.karanam94@gmail.com</li>
+                            <li>Address : #3746,1st floor,</li>
+                            <li>6th cross,Subramanya Nagar</li>
+                            <li>Bangalore-560021</li>
+                        </ul>
+                    </div><!--End of Drop Down-->
+                    <div class="mdl-mega-footer__drop-down-section">
+                        <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                        <h1 class="mdl-mega-footer__heading">Social Media</h1>
+                        <ul class="mdl-mega-footer__link-list">
+                            <li><a href="https://github.com/vinaykumar94" target="_blank" id="github">GitHub</a></li>
+                            <div class="mdl-tooltip mdl-tooltip--large" for="github"><i class="fa fa-github" aria-hidden="true"></i></div>
+                            <li><a href="https://www.linkedin.com/in/vinay-karanam-a4518579?trk=nav_responsive_tab_profile" target="_blank" id="linkedin">Linkedin</a></li>
+                            <div class="mdl-tooltip mdl-tooltip--large" for="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                            <li><a href="https://www.facebook.com/vinaykaranam94" target="_blank" id="facebook">Facebook</a></li>
+                            <div class="mdl-tooltip mdl-tooltip--large" for="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                            <li><a href="https://twitter.com/vinay_karanam94" target="_blank" id="twitter">Twitter</a></li>
+                            <div class="mdl-tooltip mdl-tooltip--large" for="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                        </ul>
+                    </div><!--End of Drop Down-->
+                    <!--Navigation to Top-->
+                     <div class="mdl-mega-footer__drop-down-section">
+                        <h1 class="mdl-mega-footer__heading"><a id="upp" href="#up" ><i class="fa fa-angle-double-up fa-2x" aria-hidden="true"></i></a></h1>
+                        <div class="mdl-tooltip mdl-tooltip--large" for="upp">Go Up</div>
+                     </div>   
+                </div><!--End of Middle Section--> 
+                <!--Bottom Section Footer-->
+                <div class="mdl-mega-footer__bottom-section">
+                    <div class="mdl-logo">&copy; Resume Generator Designed and Coded by <a id="portfolio" href="https://vinaykumar94.github.io/MyFirstWebsite/" target="_blank">vinay</a></div>
+                    <div class="mdl-tooltip mdl-tooltip--large" for="portfolio">portfolio</div>
+                </div><!--End of Bottom-->  
+            </footer><!--End of Mega Footer-->
+        </main>
+    </div><!--End of layout-->
+
+
+    <!--*******************Creating Templates***************-->
+
+
+    
+    <!--************Template1************************-->
+
+
+
+    <div id="template1hide">
+         <div class="A4_page_background">
+            <page size="A4">
+                <div class="padding">
+                    <div class="template1hero">
+                       <span id="fullname" class="name"></span><br>
+                       <p><span class="bold">Mobile : </span> +91-<span id="mobilep"></span> / <span class="bold">E-Mail : </span><span id="email" class="email"></span></p>
+                    </div>
+
+                     <!--***********Career Objective***************--> 
+
+                    <div class="objective">
+                        <div class="subheadings"><b>PROFESSIONAL SYNOPSIS</b></div><br>
+                        <div class="margin-0">
+                            <span id="objective"></span>
+                        </div>
+                    </div>
+
+                     <!--***********EDUCATIONAL QUALIFICATIONS***************--> 
+
+                    <div class="education">
+                        <div class="subheadings"><b>EDUCATIONAL QUALIFICATIONS</b></div><br>
+                        <div class="margin-0">
+                        <table style="border:2.5px solid black;border-collapse:collapse;">
+                            <thead>
+                                <tr style="border:1.5px solid black;">
+                                    <th style="border:1.5px solid black;">Course</th>
+                                    <th style="border:1.5px solid black;">School / College</th>
+                                    <th style="border:1.5px solid black;">Board / University</th>
+                                    <th style="border:1.5px solid black;">Year of Passing</th>
+                                    <th style="border:1.5px solid black;">CGPA / Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="border:1.5px solid black;">
+                                    <td style="border:1.5px solid black;" id="degree1"></td>
+                                    <td style="border:1.5px solid black;" id="college2" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="board3_3" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="year3" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="percentage3" class="text-capitalize"></td>
+                                </tr>
+                                <tr style="border:1.5px solid black;">
+                                    <td style="border:1.5px solid black;"style="border:1.5px solid black;">Class 12th</td>
+                                    <td style="border:1.5px solid black;" id="college1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="board2" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="year2" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="percentage2" class="text-capitalize"></td>
+                                </tr>
+                                 <tr style="border:1.5px solid black;">
+                                    <td style="border:1.5px solid black;" class="mdl-data-table__cell--non-numeric">Class 10th</td>
+                                    <td style="border:1.5px solid black;" id="school1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="board1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="year1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="percentage1" class="text-capitalize"></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                      </div>  
+                    </div>
+
+                    <!--***********Employment Details***************--> 
+
+                    <div class="employment">
+                        <div class="subheadings"><b>EMPLOYMENT DETAILS</b></div><br>
+                        <div class="margin-0">
+                        <b>Job Title :</b>  <span id="jobtitle"></span><br>
+                        <b>Company Name :</b> <span id="companyname"></span><br>
+                        <b>Start Date : </b> <span id="startdate"></span><br>
+                        <b>End Date :  </b> <span id="enddate"></span><br>
+                        </div>
+                    </div>
+
+                     <!--***********TECHNICAL SKILLS***************--> 
+
+                    <div class="technical">
+                        <div class="subheadings"><b>TECHNICAL SKILLS</b></div><br>
+                        <div class="margin-0">
+                        <span id="technicalskills"></span>
+                        </div>
+                    </div>
+
+                     <!--***********PROJECT DETAILS***************--> 
+
+                    <div class="project">
+                        <div class="subheadings"><b>PROJECT DETAILS</b></div><br>
+                        <div class="margin-0">
+                        <b>Project Title : </b> <span id="projecttitle"></span><br>
+                        <b>Mentor Name : </b> <span id="mentorname"></span><br>
+                        <b>Description : </b> <span id="projectdescription"></span><br>
+                        <b>Features : </b> <span id="projectfeatures"></span><br>
+                        <b>Technologies Used : </b> <span id="projecttechnology"></span><br>
+                        <b>Status of Project : </b> <span id="projectstatus"></span><br>
+                        </div>
+                    </div>
+
+                     <!--***********WORK SHOPS ATTENDED***************--> 
+
+                    <div class="workshops">
+                        <div class="subheadings"><b>WORK SHOPS ATTENDED</b></div><br>
+                        <div class="margin-0">
+                        <span id="workshopsattended"></span>
+                        </div>
+                    </div>
+                </div>    
+            </page>
+        </div>
+        <div class="A4_page_background">
+            <page size="A4"> 
+                <div class="padding">
+
+                    <!--***********AREA'S OF INTEREST***************--> 
+
+                    <div class="interest">
+                        <div class="subheadings"><b>AREA'S OF INTEREST</b></div><br>
+                        <div class="margin-0">
+                        <span id="areasofinterest"></span>
+                        </div>
+                    </div>
+
+                    <!--***********INTER PERSONAL SKILLS***************--> 
+
+                    <div class="personalskills">
+                        <div class="subheadings"><b>INTER PERSONAL SKILLS</b></div><br>
+                        <div class="margin-0">
+                        <span id="personalskills"></span>
+                        </div>
+                    </div>
+
+                    <!--***********HOBBIES AND INTERESTS***************--> 
+
+                    <div class="hobbies">
+                        <div class="subheadings"><b>HOBBIES AND INTERESTS</b></div><br>
+                        <div class="margin-0">
+                        <span id="hobbiesandinterest"></span>
+                        </div>
+                    </div>
+
+                    <!--***********EXTRA-CURRICULAR ACTIVITIES***************--> 
+
+                    <div class="extra">
+                        <div class="subheadings"><b>EXTRA-CURRICULAR ACTIVITIES</b></div><br>
+                        <div class="margin-0">
+                        <span id="extraactivities"></span>
+                        </div>
+                    </div>
+
+                    <!--***********PERSONAL DETAILS***************--> 
+
+                    <div class="personal">
+                        <div class="subheadings"><b>PERSONAL DETAILS</b></div><br>
+                        <div class="margin-0">
+                        <b>Date of Birth :</b><span id="dob1"></span><br>
+                        <b>Father's Name :</b><span id="fathersname"></span><br> 
+                        <b>Langauges Known :</b><span id="languageknown"></span><br> 
+                        <b>Gender :</b><span id="gender1"></span><br> 
+                        <b>Contact Address :</b><span id="door_no"></span><br>
+                                                <span id="cityname"></span><br>
+                                                <span id="statename"></span><br>
+                        <b>Website :</b><span id="webaddress"></span><br>
+                        </div>
+                    </div>
+                    
+                </div> 
+            </page>
+        </div>
+    </div>
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet bottom">
+            <button type="button" id="finish1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent hey">
+            Previous</button>
+        </div>
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet bottom">
+            <button type="button" id="print" onclick="printResume()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent hey">
+            Print PDF</button>
+        </div>
+    </div>  
+
+
+    <!--***********Template2 ************-->
+
+
+    <div id="template2hide">
+         <div class="A4_page_background">
+            <page size="A4">
+                <div class="padding1">
+                    <div class="template2hero">
+                       <span id="fullname1" class="name""></span><br>
+                       <p><span class="bold"> Mobile : </span> +91-<span id="mobile1"></span> / <span class="bold" >E-Mail :</span><span id="email1" class="email"></span></p>
+                    </div>
+
+                     <!--***********Career Objective***************-->
+
+                    <div class="objective">
+                        <div class="subheadings1"><b>PROFESSIONAL SYNOPSIS</b></div><br>
+                        <div class="margin-0">
+                            <span id="objective1"></span>
+                        </div>
+                    </div>
+
+                     <!--***********EDUCATIONAL QUALIFICATIONS***************--> 
+
+                    <div class="education">
+                        <div class="subheadings1"><b>EDUCATIONAL QUALIFICATIONS</b></div><br>
+                        <div class="margin-0">
+                        <table style="border:2.5px solid black;border-collapse:collapse;">
+                            <thead>
+                                <tr>
+                                    <th style="border:1.5px solid black;">Course</th>
+                                    <th style="border:1.5px solid black;">School / College</th>
+                                    <th style="border:1.5px solid black;">Board / University</th>
+                                    <th style="border:1.5px solid black;">Year of Passing</th>
+                                    <th style="border:1.5px solid black;">CGPA / Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="border:1.5px solid black;" id="degree_1"></td>
+                                    <td style="border:1.5px solid black;" id="college2_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="board3_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="year3_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="percentage3_1" class="text-capitalize"></td>
+                                </tr>
+                                <tr>
+                                    <td style="border:1.5px solid black;">Class 12th</td>
+                                    <td style="border:1.5px solid black;" id="college_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="board2_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="year2_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="percentage2_1" class="text-capitalize"></td>
+                                </tr>
+                                 <tr>
+                                    <td style="border:1.5px solid black;">Class 10th</td>
+                                    <td style="border:1.5px solid black;" id="school_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="board1_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="year1_1" class="text-capitalize"></td>
+                                    <td style="border:1.5px solid black;" id="percentage1_1" class="text-capitalize"></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                      </div>  
+                    </div>
+
+                    <!--***********Employment SKILLS***************--> 
+
+                    <div class="employment">
+                        <div class="subheadings1"><b>EMPLOYMENT DETAILS</b></div><br>
+                        <div class="margin-0">
+                        <b>Job Title :</b>  <span id="jobtitle_1"></span><br>
+                        <b>Company Name :</b> <span id="companyname_1"></span><br>
+                        <b>Start Date : </b> <span id="startdate_1"></span><br>
+                        <b>End Date :  </b> <span id="enddate_1"></span><br>
+                        </div>
+                    </div>
+
+                     <!--***********TECHNICAL SKILLS***************--> 
+
+                    <div class="technical">
+                        <div class="subheadings1"><b>TECHNICAL SKILLS</b></div><br>
+                        <div class="margin-0">
+                        <span id="technicalskills_1"></span>
+                        </div>
+                    </div>
+
+                     <!--***********PROJECT DETAILS***************--> 
+
+                    <div class="project">
+                        <div class="subheadings1"><b>PROJECT DETAILS</b></div><br>
+                        <div class="margin-0">
+                        <b>Project Title : </b> <span id="projecttitle_1"></span><br>
+                        <b>Mentor Name : </b> <span id="mentorname_1"></span><br>
+                        <b>Description : </b> <span id="projectdescription_1"></span><br>
+                        <b>Features : </b> <span id="projectfeatures_1"></span><br>
+                        <b>Technologies Used : </b> <span id="projecttechnology_1"></span><br>
+                        <b>Status of Project : </b> <span id="projectstatus_1"></span><br>
+                        </div>
+                    </div>
+
+                     <!--***********WORK SHOPS ATTENDED***************--> 
+
+                    <div class="workshops">
+                        <div class="subheadings1"><b>WORK SHOPS ATTENDED</b></div><br>
+                        <div class="margin-0">
+                        <span id="workshopsattended_1"></span>
+                        </div>
+                    </div>
+                </div>    
+            </page>
+        </div>
+        <div class="A4_page_background">
+            <page size="A4"> 
+                <div class="padding1">
+
+                    <!--***********AREA'S OF INTEREST***************--> 
+
+                    <div class="interest">
+                        <div class="subheadings1"><b>AREA'S OF INTEREST</b></div><br>
+                        <div class="margin-0">
+                        <span id="areasofinterest_1"></span>
+                        </div>
+                    </div>
+
+                    <!--***********INTER PERSONAL SKILLS***************--> 
+
+                    <div class="personalskills">
+                        <div class="subheadings1"><b>INTER PERSONAL SKILLS</b></div><br>
+                        <div class="margin-0">
+                        <span id="personalskills_1"></span>
+                        </div>
+                    </div>
+
+                    <!--***********HOBBIES AND INTERESTS***************--> 
+
+                    <div class="hobbies">
+                        <div class="subheadings1"><b>HOBBIES AND INTERESTS</b></div><br>
+                        <div class="margin-0">
+                        <span id="hobbiesandinterest_1"></span>
+                        </div>
+                    </div>
+
+                    <!--***********EXTRA-CURRICULAR ACTIVITIES***************--> 
+
+                    <div class="extra">
+                        <div class="subheadings1"><b>EXTRA-CURRICULAR ACTIVITIES</b></div><br>
+                        <div class="margin-0">
+                        <span id="extraactivities_1"></span>
+                        </div>
+                    </div>
+
+                    <!--***********PERSONAL DETAILS***************--> 
+
+                    <div class="personal">
+                        <div class="subheadings1"><b>PERSONAL DETAILS</b></div><br>
+                        <div class="margin-0">
+                        <b>Date of Birth :</b><span id="dob_1"></span><br>
+                        <b>Father's Name :</b><span id="fathersname_1"></span><br> 
+                        <b>Langauges Known :</b><span id="languageknown_1"></span><br> 
+                        <b>Gender :</b><span id="gender_1"></span><br> 
+                        <b>Contact Address :</b><span id="door_no_1"></span><br>
+                                                <span id="cityname_1"></span><br>
+                                                <span id="statename_1"></span><br>
+                        <b>Website :</b><span id="webaddress_1"></span><br>
+                        </div>
+                    </div>
+                    
+                </div> 
+            </page>
+        </div>
+    </div>
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet bottom">
+            <button type="button" id="finish2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent hey">
+            Previous</button>
+        </div>
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet bottom">
+            <button type="button" id="print1" onclick="printResume()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent hey">
+            Print PDF</button>
+        </div>
+    </div> 
+
+
+
+
+    <!--JS and Jquery Plugin Begins-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <!--Material Design JS-->
+    <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+    <!--Custom jquery-->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/template1.js"></script>
+    <script type="text/javascript" src="js/template2.js"></script>
+</body>
+</html>

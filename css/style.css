@@ -1,0 +1,246 @@
+/*************************************************************************
+**********************  Google Material Design Lite CSS   ****************
+***************************************************************************/
+.mdl-layout__tab-bar a{
+  text-decoration: none;
+}
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.mdl-body .mdl-layout__header-row {
+  padding-left: 160px;
+  padding-right: 100px;
+}
+.mdl-body .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
+  font-size: inherit;
+}
+.mdl-body .mdl-layout__tab-bar-button {
+  display: none;
+}
+.mdl-body .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
+  display: none;
+}
+.mdl-body .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar,
+.mdl-body .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
+  overflow: visible;
+}
+.mdl-body .mdl-layout__tab-bar-container {
+  height: 64px;
+}
+.mdl-body .mdl-layout__tab-bar {
+  padding: 0;
+  padding-left: 0px;/*16px*/
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+.mdl-body .mdl-layout__tab-bar .mdl-layout__tab {
+  height: 64px;
+  line-height: 64px;
+}
+.mdl-body .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+  background-color: #ff4081;
+  height: 4px;
+}
+.mdl-body main > .mdl-layout__tab-panel {
+  padding: 8px;
+  padding-top: 48px;
+}
+.r{
+  font-size:2.2em;
+}
+.other{
+  font-size:1.5em;
+}
+/**************************************************************************
+********************    Resume Builder Tab    ***************************** 
+***************************************************************************/
+.mdl-layout__tab-panel .mdl-grid{
+  margin-left: 150px;
+}
+.mdl-layout__tab-panel .mdl-grid h3{
+  color:#6c19cd;
+  padding-left: 15px;
+}
+.mdl-layout__tab-panel .mdl-grid p{
+  padding-left: 15px;
+  font-size: 1.5em;
+}
+@media all and (min-width:200px) and (max-width:670px){
+.mdl-layout__tab-panel .mdl-grid{
+  margin-left: 5px;
+}
+.mdl-body .mdl-layout__header-row {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.mdl-body .mdl-layout.is-small-screen .mdl-layout__header-row h3{
+  font-size: 1em;
+}
+}
+@media all and (min-width:200px) and (max-width:740px){
+.hide{
+  display: none;
+}
+}
+@media all and (min-width:350px) and (max-width:1028px) {
+.mdl-body .mdl-layout.is-small-screen .mdl-layout__header-row h3{
+  font-size: 1.6em;
+}
+.mdl-layout__tab.is-active a{
+ font-size: 1.5em;
+}
+}
+@media all and (min-width:200px) and (max-width:349px){
+.mdl-body .mdl-layout.is-small-screen .mdl-layout__header-row h3{
+  font-size: 1.2em;
+}
+}
+/*******************************************************************************
+*******************     DETAILS TAB    *****************************************
+********************************************************************************/
+h4{
+  margin-left: 15px;
+  color:#ff4081;
+}
+.mdl-layout__tab-panel .mdl-grid h2{
+  color:#6c19cd;
+}
+.mdl-layout__tab-panel .mdl-grid .hero1{
+  color: gray;
+  padding-left: 80px;
+}
+.link a{
+  text-decoration: none;
+}
+#more{
+  margin-left: 300px;
+  margin-top: 55px;
+}
+.back{
+   background: #CCC;
+   background-color: rgba(255,255,255,10);
+
+}
+.work{
+  font-size: 2.8em;
+  letter-spacing: 0.05em;
+}
+  .mdl-layout__tab-panel .mdl-grid{
+    margin-left: 180px;
+  }
+@media all and (min-width:200px) and (max-width:920px) {
+.work{
+  margin-left: 12px;
+}
+#more{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+}
+
+@media all and (min-width:200px) and (max-width:1210px) {
+    .work{
+      margin-left: 20px;
+      font-size: 2.3em;
+    }
+  .mdl-layout__tab-panel .mdl-grid{
+      margin-left: 0px;
+    }
+   
+  }
+@media all and (min-width:200px) and (max-width:1054px){
+.mdl-layout__tab-panel .mdl-grid{
+  font-size: 1em;
+
+} 
+.mdl-layout__tab-panel .mdl-grid p{
+  padding-left: 15px;
+  font-size: 1.5em;
+  letter-spacing: 0;
+}
+
+}
+@media all and (min-width:200px) and (max-width:1020px) {
+.mdl-layout__tab-panel .mdl-grid .hero1{
+padding-left: 10px;
+}
+.mdl-layout__tab-panel .mdl-grid h2{
+padding-left: 5px;
+}
+}
+/************************************************************************************
+************************    FOOTER                ***********************************
+************************************************************************************/
+.mdl-mega-footer__link-list li:hover{
+  color: white;
+}
+.mdl-mega-footer__heading .fa:hover{
+  color:white;
+}
+.not-active {
+   pointer-events: none;
+   cursor: default;
+   color:rgba(255,255,255,0.5);
+}
+.mdl-mega-footer__bottom-section a{
+  text-decoration: none;
+}
+.mdl-mega-footer__heading{
+  font-size: 1.6em;
+}
+.mdl-mega-footer__link-list li{
+font-size: 1.1em;
+}
+.mdl-mega-footer .mdl-mega-footer__middle-section{
+  margin-left: 10px;
+}
+
+.mdl-mega-footer .mdl-mega-footer__bottom-section{
+ margin-left: 10px;
+}
+.mdl-mega-footer .mdl-mega-footer__bottom-section .mdl-logo{
+  font-size: 1.1em;
+  margin-left: 15px;
+}
+@media all and (min-width:200px) and (max-width:1028px) {
+.mdl-mega-footer__heading .fa{
+  display: none;
+}
+.none{
+  display: none;
+}
+}
+.bottom{
+  margin-left: 20px;
+  margin-top: auto;
+}
+
+/*********************** Form Validation******************************/
+.error{
+  display: none;
+  margin-left: 10px;
+}   
+
+.error_show{
+  color: red;
+  margin-left: 10px;
+}
+
+input .invalid, textarea .invalid{
+  border: 2px solid red;
+}
+
+input .valid, textarea .valid{
+  border: 2px solid green;
+}
+
+.hey{
+  margin-left: 550px;
+}
+@media all and (min-width:200px) and (max-width:1028px) {
+.hey{
+   margin-left: 35px;
+}

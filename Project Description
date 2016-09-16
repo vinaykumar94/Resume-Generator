@@ -1,0 +1,21 @@
+Resume Generator Project:
+
+Aim: To prepare an online Resume Generator which can generate Resume by takin input from the user.
+
+Technology Used: HTML,CSS,JavaScript.
+                 Framework: Material Design Light
+                 Library: JQuery
+
+Features of Project: 1.It can generate PDF for the entered Input.
+                     2.The Resume Generator is completely responsive ,users can work seemlessly on all type of devices from Mobile,Tablet and desktop
+
+Project is hosted on Github and link is: 
+https://vinaykumar94.github.io/Resume-Generator/
+
+Templates are included in the file
+
+
+Details of Candidate:
+Name : Vinay Kumar
+Mobile: +91-7022654693
+Email: iamvinaykumarkaranam@gmail.com
