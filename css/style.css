@@ -87,7 +87,7 @@ html, body {
 }
 @media all and (min-width:350px) and (max-width:1028px) {
 .mdl-body .mdl-layout.is-small-screen .mdl-layout__header-row h3{
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 .mdl-layout__tab.is-active a{
  font-size: 1.5em;
@@ -95,7 +95,7 @@ html, body {
 }
 @media all and (min-width:200px) and (max-width:349px){
 .mdl-body .mdl-layout.is-small-screen .mdl-layout__header-row h3{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 }
 /*******************************************************************************
